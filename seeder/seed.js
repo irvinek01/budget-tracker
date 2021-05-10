@@ -12,27 +12,27 @@ let budgetSeed = [
   {
     name: "Rent",
     value: 1000,
-    day: new Date(new Date().setDate(new Date().getDate() - 10)),
+    date: new Date(new Date().setDate(new Date().getDate() - 10)),
   },
   {
     name: "Gas",
     value: 500,
-    day: new Date(new Date().setDate(new Date().getDate() - 8)),
+    date: new Date(new Date().setDate(new Date().getDate() - 8)),
   },
   {
     name: "Food",
     value: 2000,
-    day: new Date(new Date().setDate(new Date().getDate() - 6)),
+    date: new Date(new Date().setDate(new Date().getDate() - 6)),
   },
   {
     name: "Utilities",
     value: 1500,
-    day: new Date(new Date().setDate(new Date().getDate() - 4)),
+    date: new Date(new Date().setDate(new Date().getDate() - 4)),
   },
   {
     name: "Internet",
     value: 700,
-    day: new Date(new Date().setDate(new Date().getDate() - 2)),
+    date: new Date(new Date().setDate(new Date().getDate() - 2)),
   },
 ];
 

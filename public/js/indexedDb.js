@@ -13,6 +13,7 @@ const request = indexedDB.open("BudgetDB", budgetVersion || 21);
   (request.onerror = function (a) {
     console.log(`Woops! ${a.target.errorCode}`);
   });
+
 function checkDatabase() {
   //   console.log("check db invoked");
   let a = db.transaction(["BudgetStore"], "readwrite");
@@ -38,6 +39,7 @@ function checkDatabase() {
         });
   };
 }
+
 request.onsuccess = function (a) {
   //   console.log("success")
   (db = a.target.result),
